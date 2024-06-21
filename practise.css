@@ -1,0 +1,120 @@
+h1 {
+    animation: no 1s ease-in-out infinite;
+}
+
+p {
+    text-shadow: 0px 1px 7px rgba(253, 253, 253, 0.7); /* Dark blue shadow */
+}
+
+
+@keyframes no {
+    0%{
+        text-shadow: 0px 1px 12px rgba(24, 90, 177, 0.7);
+    }
+    50%{
+        text-shadow: 0px 1px 12px rgb(13, 197, 173);
+    }
+
+    100%{
+        text-shadow: 0px 1px 12px rgb(247, 250, 245);
+    }
+}
+.navpar .navjar .navtar .navli a{
+    color:rgb(94, 184, 243);
+    font-size:1.3rem;
+    font-weight: 500;
+    text-shadow: 0px 1px 20px rgb(12, 12, 12);
+}
+.navpar .navjar .navpar .navmar li a:hover{
+    color:rgb(44,152, 224);
+    border-radius:24px;
+    box-shadow: 0px 0px 20px white;
+    text-shadow: 0px 1px 12px blue;
+    padding:7px;
+    text-shadow: 0px 1px 7px black;
+    background-image: url('Avengers-stroe-4-13-2024.gif');
+}
+.car .car1 .car2 .car3 .car4{
+    color:red;
+}
+.card-body{
+    
+}
+.coll{
+    width:50%;
+}
+.coll:hover{
+    background-image: url('Avengers-stroe-4-13-2024.gif');
+}
+@keyframes io {
+    0%{
+        width:30%;
+       
+
+    }
+    100%{
+        width:100%;
+        background-image: url('Marvel\ Gifs.gif');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+    }
+}
+/* Add this CSS to your existing stylesheet */
+
+.nav-link {
+    position: relative;
+    text-decoration: none;
+    color: rgb(2, 2, 39);
+    text-shadow: 0px 1px 20px rgb(2, 2, 58);
+    font-weight: 500;
+    transition: border-bottom 0.3s ease;
+}
+
+.nav-link::before {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    width: 0%;
+    height: 2px;
+    background-color: rgba(11, 2, 51, 0.5);
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::before {
+    width: 100%;
+    left: 0;
+}
+
+.nav-link.active::before {
+    width: 100%;
+    left: 0;
+}
+
+.ioo{
+    animation:ik 3s ease-in-out;
+    width: 0%;
+    overflow: hidden;
+}
+@keyframes ik {
+    0%{
+        width:0%;
+    }
+    100%{
+        width:100%;
+    }
+    
+}
+/* Hide the dropdown icon */
+.dropdown-toggle::after {
+    display: none;
+}
+
+/* Adjust padding or margins if necessary */
+.dropdown-toggle {
+    padding-right: 0; /* Adjust as needed */
+}
+
+
